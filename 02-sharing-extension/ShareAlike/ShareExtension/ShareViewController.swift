@@ -24,7 +24,7 @@ class ShareViewController: SLComposeServiceViewController {
   // The URL we're uploading to.
   // NOTE: This almost certainly _won't_ work for you. Create your own request bin
   //       at http://requestb.in/ and substitute that URL here.
-  let sc_uploadURL = "http://requestb.in/ykc1ipyk"
+  let sc_uploadURL = "http://requestb.in/1101wti1"
   let sc_maxCharactersAllowed = 25
   
   var attachedImage: UIImage?
@@ -60,10 +60,10 @@ class ShareViewController: SLComposeServiceViewController {
   
   override func didSelectPost() {
     // This is called after the user selects Post. Do the upload of contentText and/or NSExtensionContext attachments.
-    let configName = "com.shinobicontrols.ShareAlike.BackgroundSessionConfig"
+    let configName = "com.messel.ShareAlike.BackgroundSessionConfig"
     let sessionConfig = NSURLSessionConfiguration.backgroundSessionConfigurationWithIdentifier(configName)
     // Extensions aren't allowed their own cache disk space. Need to share with application
-    sessionConfig.sharedContainerIdentifier = "group.ShareAlike"
+    sessionConfig.sharedContainerIdentifier = "group.messel.ShareAlike"
     let session = NSURLSession(configuration: sessionConfig)
     
     // Prepare the URL Request

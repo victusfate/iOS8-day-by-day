@@ -12,20 +12,12 @@
 		F402B6E5194B2B0B00E02488 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F402B6E4194B2B0B00E02488 /* ViewController.swift */; };
 		F402B6E8194B2B0B00E02488 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F402B6E6194B2B0B00E02488 /* Main.storyboard */; };
 		F402B6EA194B2B0C00E02488 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F402B6E9194B2B0C00E02488 /* Images.xcassets */; };
-		F402B6F6194B2B0C00E02488 /* ShareAlikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F402B6F5194B2B0C00E02488 /* ShareAlikeTests.swift */; };
 		F402B708194B31DF00E02488 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F402B707194B31DF00E02488 /* ShareViewController.swift */; };
 		F402B70A194B31DF00E02488 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F402B709194B31DF00E02488 /* MainInterface.storyboard */; };
-		F402B70D194B31DF00E02488 /* com.shinobicontrols.ShareAlike.ShareExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F402B703194B31DF00E02488 /* com.shinobicontrols.ShareAlike.ShareExtension.appex */; };
+		F402B70D194B31DF00E02488 /* com.messel.ShareAlike.ShareExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F402B703194B31DF00E02488 /* com.messel.ShareAlike.ShareExtension.appex */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F402B6F0194B2B0C00E02488 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F402B6D5194B2B0B00E02488 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F402B6DC194B2B0B00E02488;
-			remoteInfo = ShareAlike;
-		};
 		F402B70B194B31DF00E02488 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F402B6D5194B2B0B00E02488 /* Project object */;
@@ -49,7 +41,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				F402B70D194B31DF00E02488 /* com.shinobicontrols.ShareAlike.ShareExtension.appex in Embed App Extensions */,
+				F402B70D194B31DF00E02488 /* com.messel.ShareAlike.ShareExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -66,10 +58,9 @@
 		F402B6E4194B2B0B00E02488 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F402B6E7194B2B0B00E02488 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F402B6E9194B2B0C00E02488 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		F402B6EF194B2B0C00E02488 /* ShareAlikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareAlikeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F402B6F4194B2B0C00E02488 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F402B6F5194B2B0C00E02488 /* ShareAlikeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareAlikeTests.swift; sourceTree = "<group>"; };
-		F402B703194B31DF00E02488 /* com.shinobicontrols.ShareAlike.ShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = com.shinobicontrols.ShareAlike.ShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F402B703194B31DF00E02488 /* com.messel.ShareAlike.ShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = com.messel.ShareAlike.ShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		F402B706194B31DF00E02488 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F402B707194B31DF00E02488 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 		F402B709194B31DF00E02488 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
@@ -77,13 +68,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		F402B6DA194B2B0B00E02488 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F402B6EC194B2B0C00E02488 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -114,8 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				F402B6DD194B2B0B00E02488 /* ShareAlike.app */,
-				F402B6EF194B2B0C00E02488 /* ShareAlikeTests.xctest */,
-				F402B703194B31DF00E02488 /* com.shinobicontrols.ShareAlike.ShareExtension.appex */,
+				F402B703194B31DF00E02488 /* com.messel.ShareAlike.ShareExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -201,24 +184,6 @@
 			productReference = F402B6DD194B2B0B00E02488 /* ShareAlike.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F402B6EE194B2B0C00E02488 /* ShareAlikeTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F402B6FC194B2B0C00E02488 /* Build configuration list for PBXNativeTarget "ShareAlikeTests" */;
-			buildPhases = (
-				F402B6EB194B2B0C00E02488 /* Sources */,
-				F402B6EC194B2B0C00E02488 /* Frameworks */,
-				F402B6ED194B2B0C00E02488 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F402B6F1194B2B0C00E02488 /* PBXTargetDependency */,
-			);
-			name = ShareAlikeTests;
-			productName = ShareAlikeTests;
-			productReference = F402B6EF194B2B0C00E02488 /* ShareAlikeTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		F402B702194B31DF00E02488 /* ShareExtension */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F402B710194B31DF00E02488 /* Build configuration list for PBXNativeTarget "ShareExtension" */;
@@ -233,7 +198,7 @@
 			);
 			name = ShareExtension;
 			productName = ShareExtension;
-			productReference = F402B703194B31DF00E02488 /* com.shinobicontrols.ShareAlike.ShareExtension.appex */;
+			productReference = F402B703194B31DF00E02488 /* com.messel.ShareAlike.ShareExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -253,10 +218,6 @@
 								enabled = 1;
 							};
 						};
-					};
-					F402B6EE194B2B0C00E02488 = {
-						CreatedOnToolsVersion = 6.0;
-						TestTargetID = F402B6DC194B2B0B00E02488;
 					};
 					F402B702194B31DF00E02488 = {
 						CreatedOnToolsVersion = 6.0;
@@ -286,7 +247,6 @@
 			projectRoot = "";
 			targets = (
 				F402B6DC194B2B0B00E02488 /* ShareAlike */,
-				F402B6EE194B2B0C00E02488 /* ShareAlikeTests */,
 				F402B702194B31DF00E02488 /* ShareExtension */,
 			);
 		};
@@ -300,13 +260,6 @@
 				F402B6E8194B2B0B00E02488 /* Main.storyboard in Resources */,
 				F402B6EA194B2B0C00E02488 /* Images.xcassets in Resources */,
 				22EDB8191AD68075008515E4 /* Launch Screen.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F402B6ED194B2B0C00E02488 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,14 +283,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F402B6EB194B2B0C00E02488 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F402B6F6194B2B0C00E02488 /* ShareAlikeTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F402B6FF194B31DF00E02488 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -349,11 +294,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F402B6F1194B2B0C00E02488 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F402B6DC194B2B0B00E02488 /* ShareAlike */;
-			targetProxy = F402B6F0194B2B0C00E02488 /* PBXContainerItemProxy */;
-		};
 		F402B70C194B31DF00E02488 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F402B702194B31DF00E02488 /* ShareExtension */;
@@ -491,42 +431,6 @@
 			};
 			name = Release;
 		};
-		F402B6FD194B2B0C00E02488 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShareAlike.app/ShareAlike";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ShareAlikeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				METAL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-			};
-			name = Debug;
-		};
-		F402B6FE194B2B0C00E02488 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShareAlike.app/ShareAlike";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ShareAlikeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				METAL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-			};
-			name = Release;
-		};
 		F402B711194B31DF00E02488 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -540,7 +444,7 @@
 				INFOPLIST_FILE = ShareExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				METAL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = "com.shinobicontrols.ShareAlike.$(TARGET_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "com.messel.ShareAlike.$(TARGET_NAME:rfc1034identifier)";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
@@ -555,7 +459,7 @@
 				INFOPLIST_FILE = ShareExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				METAL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "com.shinobicontrols.ShareAlike.$(TARGET_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "com.messel.ShareAlike.$(TARGET_NAME:rfc1034identifier)";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
@@ -578,15 +482,6 @@
 			buildConfigurations = (
 				F402B6FA194B2B0C00E02488 /* Debug */,
 				F402B6FB194B2B0C00E02488 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F402B6FC194B2B0C00E02488 /* Build configuration list for PBXNativeTarget "ShareAlikeTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F402B6FD194B2B0C00E02488 /* Debug */,
-				F402B6FE194B2B0C00E02488 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
